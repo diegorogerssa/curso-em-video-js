@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+    <section>
+        <div id ="dados">
+            <p class="p">Início:<br>
+                <input class="form" type="number" name="ini" id="txti" placeholder="Digite o início da contagem:">
+            </p>
+            <p class="p">Fim:<br>
+                <input class="form" type="number" name="fim" id="txtf" placeholder="Digite o final da contagem:">
+            </p>
+            <p class="p">Passo:<br>
+                <input class="form" type="number" name="pass" id="txtp" placeholder="Digite o intervalo entre a contagem:">
+            </p>
+            <input id="contar" type="button" value="Contar" onclick="contar()">
+            <input id='limpar' type="button" value="Limpar" onclick="limpar()">
+        </div>
+        <div id="res">
+            <p>Preparando a contagem...</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Diego Rogers | CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
